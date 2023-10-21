@@ -1,5 +1,7 @@
-const sayHello=()=>{
+export const sendHello = ()=> {
     return "hello";
-}
+};
 
-export default sayHello;
+export const sendName = () => {
+    return "John";
+};
